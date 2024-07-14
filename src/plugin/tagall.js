@@ -18,15 +18,15 @@ const tagAll = async (m, gss) => {
     
         if (!m.isGroup) return m.reply("*📛 THIS COMMAND CAN ONLY BE USED IN GROUPS*");
 
-    if (!botAdmin) return m.reply("*📛 BOT MUST BE AN ADMIN TO USE THIS COMMAND*");
-    if (!senderAdmin) return m.reply("*📛 YOU MUST BE AN ADMIN TO USE THIS COMMAND*");
+    if (!botAdmin) return m.reply("*𝐁ⱺ𝗍 𝐊ⱺ 𝐀ᑯꭑ𝗂𐓣 𝐁α𐓣α 𝐏αɦᥣ𝖾 𝐂ɦυ𝗍𝗂𝗒𝖾*");
+    if (!senderAdmin) return m.reply("*𝐁𝗂𐓣α 𝐀ᑯꭑ𝗂𐓣 𝐊𝖾 𝐓α𝗀αᥣᥣ 𝐊α𝗋𝖾𝗀α? 𝐏αɦᥣ𝖾 𝐀ᑯꭑ𝗂𐓣 𝐓ⱺɦ 𝐁α𐓣𝗃α*");
     // Extract the message to be sent
-    let message = `乂 *Attention Everyone* 乂\n\n*Message:* ${m.body.slice(prefix.length + cmd.length).trim() || 'no message'}\n\n`;
+    let message = `ㅤ࣪ㅤ🧺ᩙㅤׅㅤ࣪ *𝐀𝗍𝗍𝖾𐓣𝗍𝗂ⱺ𐓣 𝐄𝗏𝖾𝗋𝗒ⱺ𐓣𝖾* 𝆹𝅥𝆺𝅥  ׅ    ׁ  🕯️\n\n*𝐌𝖾𝗌𝗌α𝗀𝖾:* ${m.body.slice(prefix.length + cmd.length).trim() || '𝐍ⱺ 𝐌𝖾𝗌𝗌α𝗀𝖾'}\n\n`;
         
 
 
     for (let participant of participants) {
-      message += `❒ @${participant.id.split('@')[0]}\n`;
+      message += `ㅤ࣪ㅤ🧺ᩙㅤׅㅤ࣪ @${participant.id.split('@')[0]}\n`;
     }
 
     await gss.sendMessage(m.from, { text: message, mentions: participants.map(a => a.id) }, { quoted: m });
