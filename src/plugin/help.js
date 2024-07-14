@@ -91,8 +91,8 @@ let mode = ethix.public ? 'public' : 'private';
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `╭─────────────━┈⊷
-│ㅤ࣪ㅤ🧺ᩙㅤׅㅤ࣪𝐁ⱺ𝗍 𝐍αꭑ𝖾: *𝐅𝖾ᥣ𝗂𝗑*
-│ㅤ࣪ㅤ🧺ᩙㅤׅㅤ࣪𝐕𝖾𝗋𝗌𝗂ⱺ𐓣: 2.0.3
+│ㅤ࣪ㅤ🧺ᩙㅤׅ𝐁ⱺ𝗍 𝐍αꭑ𝖾: *𝐅𝖾ᥣ𝗂𝗑*
+│ㅤ࣪ㅤ🧺ᩙㅤׅ𝐕𝖾𝗋𝗌𝗂ⱺ𐓣: 2.0.3
 │ㅤ࣪ㅤ🧺ᩙㅤׅ𝐎ω𐓣𝖾𝗋 : *𝐅𝖾ᥣ𝗂𝗑*      
 │ㅤ࣪ㅤ🧺ᩙㅤׅ𝐍υꭑᑲ𝖾𝗋: 994402018313
 │ㅤ࣪ㅤ🧺ᩙㅤׅ𝐏ᥣα𝗍𝖿ⱺ𝗋ꭑ: *${os.platform()}*
@@ -212,7 +212,7 @@ let mode = ethix.public ? 'public' : 'private';
 │🤖 𝐁ⱺ𝗍 𝐍αꭑ𝖾: *𝐅𝖾ᥣ𝗂𝗑*
 │📍 𝐕𝖾𝗋𝗌𝗂ⱺ𐓣: 2.0.3
 │👨‍💻 𝐎ω𐓣𝖾𝗋: *𝐅𝖾ᥣ𝗂𝗑*      
-│👤 𝐍υꭑᑲ𝖾𝗋: 918127875972                                                                       : 919142294671
+│👤 𝐍υꭑᑲ𝖾𝗋: 994402018313                                                                      : 919142294671
 │💻 𝐏ᥣα𝗍𝖿ⱺ𝗋ꭑ: *${os.platform()}*
 │🛡 𝐌ⱺᑯ𝖾: *${mode}*
 │💫 𝐏𝗋𝖾𝖿𝗂𝗑: *[Multi-Prefix]*
